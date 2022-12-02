@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>YouReg</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220428141625">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="img/favicon/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="img/favicon/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="img/favicon/mstile-310x310.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="/" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" data-goto=".actions" data-goto-header class="menu__link">Pracing</a></li>
+								<li class="menu__item"><a href="#" data-goto=".about" data-goto-header class="menu__link">Who we
+										are</a></li>
+								<li class="menu__item"><a href="#" data-goto=".questions" class="menu__link">FAQ</a>
+								</li>
+							</ul>
+							<div class="menu__buttons">
+								<a href="https://www.youreg.tech/sc/profile/" class="menu__button button">Log In</a>
+								<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="menu__button button button-accent">Sign Up</a>
+							</div>
+						</nav>
+					</div>
+					<a href="https://www.youreg.tech/sc/profile/" class="header__button button-small">Log In</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="main">
+				<div class="main__container">
+					<div class="main__body">
+						<div class="main__content">
+							<h1 class="main__title h1">Start your <span>business</span> <br> in a few cliks</h1>
+							<div class="main__subtitle big-text">
+								<p>Simple interface.</p>
+								<p>Fast procedures.</p>
+								<p>Low cost</p>
+							</div>
+							<div class="main__buttons">
+								<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="main__button button button-accent">Let’s started</a>
+								<button data-popup="#callform" type="button" class="main__button button button-white">Need a
+									call</button>
+							</div>
+						</div>
+						<div class="main__img">
+							<img data-src="img/1.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="actions">
+				<div class="actions__container">
+					<div class="actions__body">
+						<div data-tabs class="actions__tabs tabs-action">
+							<nav data-tabs-titles class="tabs-action__navigation">
+								<button type="button" class="tabs-action__title _tab-active">Cyprus</button>
+								<button type="button" class="tabs-action__title">Hong Kong</button>
+							</nav>
+							<div data-tabs-body class="tabs-action__content">
+								<div class="tabs-action__body">
+									<h2 class="actions__title h2">Here you can</h2>
+									<div data-tabs class="register__tabs tabs-register">
+										<nav data-tabs-titles class="tabs-register__navigation">
+											<button type="button" data-tabs-syncron="tab-title-1" class="tabs-register__title _tab-active">Register a
+												company</button>
+											<button type="button" data-tabs-syncron="tab-title-2" class="tabs-register__title">Transfer an existing
+												company</button>
+										</nav>
+										<div data-tabs-body class="tabs-register__content">
+											<div class="tabs-register__body">
+												<div data-spollers class="tabs-register__spollers spollers-register spollers">
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Registration procedures <br>
+																	<span class="spollers-register__price">€999*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Business name approval</li>
+																	<li class="spollers-register__list-item">Preparation of documents to
+																		the Registrar</li>
+																	<li class="spollers-register__list-item">Payment of urgent fees</li>
+																	<li class="spollers-register__list-item">Apostille legalization of
+																		corporate documents</li>
+																	<li class="spollers-register__list-item">Sending of originals via
+																		DHL)</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Secretary services (optional)<br>
+																	<span class="spollers-register__price">€199*</span>
+																	<span><sup>/mo</sup>
+																		or
+																		€999/yr.</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Registered Office</li>
+																	<li class="spollers-register__list-item">AML monitoring</li>
+																	<li class="spollers-register__list-item">Certificate of Incumbency &
+																		Corporate Register issue</li>
+																	<li class="spollers-register__list-item">Signing and archiving of
+																		documents</li>
+																	<li class="spollers-register__list-item">Receipt of correspondence)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Director - local person (optional) <br> from
+																	<span class="spollers-register__price">€49*</span> or
+																	€495/yr.
+																</p>
+															</button>
+															<div class="spollers-register__body">
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Corporate bank account opening (additional) <br>
+																	<span class="spollers-register__price">€1490*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Bank options proposal</li>
+																	<li class="spollers-register__list-item">Filling out bank forms</li>
+																	<li class="spollers-register__list-item">Submission of documents set
+																	</li>
+																	<li class="spollers-register__list-item">Communication with bank)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-register__buttons">
+													<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="tabs-register__button button button-accent">Create account and
+														start</a>
+													<button type="button" data-popup="#priceform" class="tabs-register__button button button-white">View the
+														full price</button>
+												</div>
+												<div class="tabs-register__label">*Without VAT (19%)</div>
+											</div>
+											<div class="tabs-register__body">
+												<div data-spollers class="tabs-register__spollers spollers-register spollers">
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Company transfer procedures <br>
+																	<span class="spollers-register__price">€0*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Business name approval</li>
+																	<li class="spollers-register__list-item">Preparation of documents to
+																		the Registrar</li>
+																	<li class="spollers-register__list-item">Payment of urgent fees</li>
+																	<li class="spollers-register__list-item">Apostille legalization of
+																		corporate documents</li>
+																	<li class="spollers-register__list-item">Sending of originals via
+																		DHL)</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Secretary services (optional)<br>
+																	<span class="spollers-register__price">€49*</span>
+																	<span>from €49</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Registered Office</li>
+																	<li class="spollers-register__list-item">AML monitoring</li>
+																	<li class="spollers-register__list-item">Certificate of Incumbency &
+																		Corporate Register issue</li>
+																	<li class="spollers-register__list-item">Signing and archiving of
+																		documents</li>
+																	<li class="spollers-register__list-item">Receipt of correspondence)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Director - local person (optional) <br> from
+																	<span class="spollers-register__price">€49*</span> or
+																	€495/yr.
+																</p>
+															</button>
+															<div class="spollers-register__body">
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Corporate bank account opening (additional) <br>
+																	<span class="spollers-register__price">€1490*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Bank options proposal</li>
+																	<li class="spollers-register__list-item">Filling out bank forms</li>
+																	<li class="spollers-register__list-item">Submission of documents set
+																	</li>
+																	<li class="spollers-register__list-item">Communication with bank)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-register__buttons">
+													<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="tabs-register__button button button-accent">Create account and
+														start</a>
+													<button type="button" data-popup="#priceform" class="tabs-register__button button button-white">View the
+														full price</button>
+												</div>
+												<div class="tabs-register__label">*Without VAT (19%)</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs-action__body">
+									<h2 class="actions__title h2">Here you can</h2>
+									<div data-tabs class="register__tabs tabs-register">
+										<nav data-tabs-titles class="tabs-register__navigation">
+											<button type="button" data-tabs-syncron="tab-title-1" class="tabs-register__title _tab-active">Register a
+												company</button>
+											<button type="button" data-tabs-syncron="tab-title-2" class="tabs-register__title">Transfer an existing
+												company</button>
+										</nav>
+										<div data-tabs-body class="tabs-register__content">
+											<div class="tabs-register__body">
+												<div data-spollers class="tabs-register__spollers spollers-register spollers">
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Registration procedures <br>
+																	<span class="spollers-register__price">€999*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Business name approval</li>
+																	<li class="spollers-register__list-item">Preparation of documents to
+																		the Registrar</li>
+																	<li class="spollers-register__list-item">Payment of urgent fees</li>
+																	<li class="spollers-register__list-item">Apostille legalization of
+																		corporate documents</li>
+																	<li class="spollers-register__list-item">Sending of originals via
+																		DHL)</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Secretary services (optional)<br>
+																	<span class="spollers-register__price">€99*</span>
+																	<span><sup>/mo</sup>
+																		or
+																		€999/yr.</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Registered Office</li>
+																	<li class="spollers-register__list-item">AML monitoring</li>
+																	<li class="spollers-register__list-item">Certificate of Incumbency &
+																		Corporate Register issue</li>
+																	<li class="spollers-register__list-item">Signing and archiving of
+																		documents</li>
+																	<li class="spollers-register__list-item">Receipt of correspondence)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Director - local person (optional) <br> from
+																	<span class="spollers-register__price">€49*</span> or
+																	€495/yr.
+																</p>
+															</button>
+															<div class="spollers-register__body">
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Corporate bank account opening (additional) <br>
+																	<span class="spollers-register__price">€1490*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Bank options proposal</li>
+																	<li class="spollers-register__list-item">Filling out bank forms</li>
+																	<li class="spollers-register__list-item">Submission of documents set
+																	</li>
+																	<li class="spollers-register__list-item">Communication with bank)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-register__buttons">
+													<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="tabs-register__button button button-accent">Create account and
+														start</a>
+													<button type="button" data-popup="#priceform" class="tabs-register__button button button-white">View the
+														full price</button>
+												</div>
+												<div class="tabs-register__label">*Without VAT (19%)</div>
+											</div>
+											<div class="tabs-register__body">
+												<div data-spollers class="tabs-register__spollers spollers-register spollers">
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Company transfer procedures <br>
+																	<span class="spollers-register__price">€0*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Business name approval</li>
+																	<li class="spollers-register__list-item">Preparation of documents to
+																		the Registrar</li>
+																	<li class="spollers-register__list-item">Payment of urgent fees</li>
+																	<li class="spollers-register__list-item">Apostille legalization of
+																		corporate documents</li>
+																	<li class="spollers-register__list-item">Sending of originals via
+																		DHL)</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Secretary services (optional)<br>
+																	<span class="spollers-register__price">€49*</span>
+																	<span>from €49</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Registered Office</li>
+																	<li class="spollers-register__list-item">AML monitoring</li>
+																	<li class="spollers-register__list-item">Certificate of Incumbency &
+																		Corporate Register issue</li>
+																	<li class="spollers-register__list-item">Signing and archiving of
+																		documents</li>
+																	<li class="spollers-register__list-item">Receipt of correspondence)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Director - local person (optional) <br> from
+																	<span class="spollers-register__price">€49*</span> or
+																	€495/yr.
+																</p>
+															</button>
+															<div class="spollers-register__body">
+															</div>
+														</div>
+													</div>
+													<div class="spollers-register__item">
+														<div class="spollers-register__content">
+															<button type="button" data-spoller class="spollers-register__title">
+																<p>Corporate bank account opening (additional) <br>
+																	<span class="spollers-register__price">€1490*</span>
+																</p>
+																<img class="spollers-register__icon" src="img/icon-angle-down.svg" alt="">
+															</button>
+															<div class="spollers-register__body">
+																<ul class="spollers-register__list">
+																	<li class="spollers-register__list-item">Bank options proposal</li>
+																	<li class="spollers-register__list-item">Filling out bank forms</li>
+																	<li class="spollers-register__list-item">Submission of documents set
+																	</li>
+																	<li class="spollers-register__list-item">Communication with bank)
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-register__buttons">
+													<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="tabs-register__button button button-accent">Create account and
+														start</a>
+													<button type="button" data-popup="#priceform" class="tabs-register__button button button-white">View the
+														full price</button>
+												</div>
+												<div class="tabs-register__label">*Without VAT (19%)</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="articles">
+				<div class="articles__container">
+					<div class="articles__body">
+						<div class="articles__list">
+							<div class="articles__item item-acticle">
+								<a href="" class="item-acticle__source">medium.com</a>
+								<h2 class="item-acticle__title h2">Why should I start business in Cyprus?</h2>
+								<div class="item-acticle__text">After joining the EU, Cyprus was forced to abandon the formal
+									status of an offshore, but this did not diminish its attractiveness in the eyes of many
+									businessmen…</div>
+								<a href="" target="_blank" class="item-acticle__button button-small button-white">Read It →</a>
+							</div>
+							<div class="articles__item item-acticle">
+								<a href="" class="item-acticle__source">medium.com</a>
+								<h2 class="item-acticle__title h2">Why should I start business in Hong Kong?</h2>
+								<div class="item-acticle__text">After joining the EU, Cyprus was forced to abandon the formal
+									status of an offshore, but this did not diminish its attractiveness in the eyes of many
+									businessmen…</div>
+								<a href="" target="_blank" class="item-acticle__button button-small button-white">Read It →</a>
+							</div>
+						</div>
+						<div class="articles__img">
+							<img data-src="img/3.svg" alt="">
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="procedure">
+				<div class="procedure__container">
+					<div class="procedure__body">
+						<h2 class="procedure__title h2">What is the procedure</h2>
+						<div data-spollers data-one-spoller data-spollers-orientation="left" class="procedure__items">
+							<div class="procedure__item item-procedure _active">
+								<button type="button" data-spoller class="item-procedure__button _spoller-active spoller-left"><span>1</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>2</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>3</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>4</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>5</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>6</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>7</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>8</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+							<div class="procedure__item item-procedure">
+								<button type="button" data-spoller class="item-procedure__button"><span>9</span></button>
+								<div class="item-procedure__body">
+									<div class="item-procedure__title">Provide us with information</div>
+									<div class="item-procedure__text">We need company’s name, activity, mailing address</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="whyus">
+				<div class="whyus__container">
+					<div class="whyus__body">
+						<h2 class="whyus__title h2">Why should you choose us</h2>
+						<div class="whyus__items">
+							<div class="whyus__item">
+								<span class="whyus__arrow">→</span>
+								<div class="whyus__text">Work with lincensed local corporate administrators with over 15 years
+									of experience
+								</div>
+							</div>
+							<div class="whyus__item">
+								<span class="whyus__arrow">→</span>
+								<div class="whyus__text">
+									Have partners around the globe (legal&tax issues, consulting, fund&trust management,
+									residence permit obtaining)
+								</div>
+							</div>
+							<div class="whyus__item">
+								<span class="whyus__arrow">→</span>
+								<div class="whyus__text">
+									Offer supporting services (bank account opening, bookkeeping,
+									real substance)
+								</div>
+							</div>
+							<div class="whyus__item">
+								<span class="whyus__arrow">→</span>
+								<div class="whyus__text">
+									Provide support in English, Chineese, Greek <br>
+									and Russian
+								</div>
+							</div>
+						</div>
+						<div class="whyus__img">
+							<img data-src="img/2.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<div class="about__body">
+						<h2 class="about__title h2">Who we are</h2>
+						<div class="about__items">
+							<div class="about__item item-about">
+								<div class="item-about__img">
+									<picture><source srcset="img/about-1.webp, img/about-1@x2.webp 2x" type="image/webp"><img src="img/about-1.png" srcset="img/about-1@x2.png 2x" alt=""></picture>
+								</div>
+								<div class="item-about__name">Vlada Al-Nazhdavi</div>
+								<div class="item-about__position">Product Manager</div>
+								<div class="item-about__text">“YouReg is about eIDs, video calls, online payments and documents
+									in e-format. We would like to show that company registration procedure is simple and you can
+									start the business at no extra fees staying inside. We are working with Corporate
+									Administrators who are ready to be digital and open minded.”</div>
+							</div>
+							<div class="about__item item-about">
+								<div class="item-about__img">
+									<picture><source srcset="img/about-2.webp, img/about-2@x2.webp 2x" type="image/webp"><img src="img/about-2.png" srcset="img/about-2@x2.png 2x" alt=""></picture>
+								</div>
+								<div class="item-about__name">Janet Anderson</div>
+								<div class="item-about__position">Business Consultant</div>
+								<div class="item-about__text">“YouReg is about eIDs, video calls, online payments and documents
+									in e-format. We would like to show that company registration procedure is simple and
+									you can start the business at no extra fees staying inside. We are working with Corporate
+									Administrators who are ready to be digital and open minded.”</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="questions">
+				<div class="questions__container">
+					<div class="questions__body">
+						<div data-tabs class="questions__tabs tabs-questions">
+							<nav data-tabs-titles class="tabs-questions__navigation">
+								<button type="button" class="tabs-questions__button button button-gray _tab-active">Cypris</button>
+								<button type="button" class="tabs-questions__button button button-gray">Hong Kong</button>
+							</nav>
+							<div data-tabs-body class="tabs-questions__content">
+								<div class="tabs-questions__body">
+									<div class="tabs-questions__title">Questions</div>
+									<div data-spollers data-one-spoller class="tabs-questions__spollers spollers-questions">
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>How long does it
+													take to open a company in Cyprus?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>What documents should be provided for company incorporation?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>Do I have to send any documents in original for company incorporation?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>Are there any requirements of a Company Name?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>Can the Director of the company be the Secretary as well?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>If the Shareholder of the company will be a nominee person, is any Agreement
+													conducted with him?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>What does “physical address of the company” mean? </p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>What does “real substance” in Cyprus mean and why does Cyprus company need it?
+												</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>How long does it take to sign agreements/contracts, invoices, etc. by the
+													shareholder(s)/ director(s) provided by YouReg? </p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+									</div>
+									<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="tabs-questions__link button button-accent">Create account and start</a>
+								</div>
+								<div class="tabs-questions__body">
+									<div class="tabs-questions__title">Questions</div>
+									<div data-spollers data-one-spoller class="tabs-questions__spollers spollers-questions">
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>How long does it
+													take to open a company in Hong Kong?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>What documents should be provided for company incorporation?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>Do I have to send any documents in original for company incorporation?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>Are there any requirements of a Company Name?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>Can the Director of the company be the Secretary as well?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>If the Shareholder of the company will be a nominee person, is any Agreement
+													conducted with him?</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>What does “physical address of the company” mean? </p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>What does “real substance” in Cyprus mean and why does Cyprus company need it?
+												</p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+										<div class="spollers-questions__item">
+											<button type="button" data-spoller class="spollers-questions__title">
+												<p>How long does it take to sign agreements/contracts, invoices, etc. by the
+													shareholder(s)/ director(s) provided by YouReg? </p> <img src="img/icon-angle-down.svg" alt="">
+											</button>
+											<div class="spollers-questions__body">
+												<div class="spollers-questions__text">
+													It takes up to 7 working days to register your company once KYC procedure is done
+													and original signed corporate documents are received.
+												</div>
+											</div>
+										</div>
+									</div>
+									<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="tabs-questions__link button button-accent">Create account and start</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">Safesquire Limited I Griva Digeni, 84, Office 102, Limassol, 3103, Cypris</div>
+					<div class="footer__links">
+						<a href="https://www.youreg.tech/privacy-policy/" target="_blank" class="footer__link">Privacy Policy </a>
+						<a href="https://www.youreg.tech/terms/" target="_blank" class="footer__link">Terms of Use</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__cookies cookies">
+				<div class="cookies__body">
+					<div class="cookies__text">
+						We use cookies. Learn more in <a href="terms.html">Terms and conditions</a>
+					</div>
+					<div class="cookies__buttons">
+						<button type="button" class="cookies__button button-small button-white">Decline</button>
+						<button type="button" class="cookies__button button-small button-accent">Accept</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="callform" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+				<div class="popup__body">
+					<div class="popup__title big-text">Got any questions? <br>
+						Feel free to contact us!</div>
+					<form action="#" data-dev data-popup-message="#form-message" class="popup__form">
+						<div class="popup__inputs">
+							<div class="popup__input-wrap">
+								<input required class="popup__input input" data-validate autocomplete="off" type="text" name="form[]" data-error="" placeholder="Name">
+							</div>
+							<div class="popup__input-wrap">
+								<input required class="popup__input input" data-validate autocomplete="off" type="text" name="form[]" data-error="" placeholder="Contact number">
+							</div>
+						</div>
+						<div class="popup__textarea-wrap">
+							<textarea required class="popup__textarea" data-validate name="" data-error="" placeholder="Case"></textarea>
+						</div>
+						<button type="submit" class="popup__button button button-accent">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="form-message" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+				<div class="popup__body">
+					<div class="popup__title big-text">We will call you back</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="priceform" aria-hidden="true" class="popup price-popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+				<div class="popup__body">
+					<div class="popup__title big-text">Leave your e-mail and receive a Price list at once</div>
+					<form action="#" data-dev data-popup-message="#form-price-message" class="popup__form">
+						<div class="popup__input-wrap">
+							<input required class="popup__input input" data-validate data-required="email" autocomplete="off" type="email" name="form[]" data-error="" placeholder="E-mail">
+						</div>
+						<button type="submit" class="popup__button button button-accent">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="form-price-message" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+				<div class="popup__body">
+					<div class="popup__title big-text">Check your e-mail box</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220428141625"></script>
+</body>
+
+
+</html>
