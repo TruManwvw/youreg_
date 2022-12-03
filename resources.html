@@ -2,88 +2,570 @@
 <html lang="ru">
 
 <head>
-	<title>YouReg</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220428141625">
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
-	<link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196" />
-	<link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
-	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
-	<link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
-	<meta name="application-name" content="&nbsp;" />
-	<meta name="msapplication-TileColor" content="#FFFFFF" />
-	<meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png" />
-	<meta name="msapplication-square70x70logo" content="img/favicon/mstile-70x70.png" />
-	<meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png" />
-	<meta name="msapplication-wide310x150logo" content="img/favicon/mstile-310x150.png" />
-	<meta name="msapplication-square310x310logo" content="img/favicon/mstile-310x310.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>YouReg</title>
+   <meta charset="UTF-8">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220428141625">
+   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
+   <meta name="application-name" content="&nbsp;" />
+   <meta name="msapplication-TileColor" content="#FFFFFF" />
+   <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png" />
+   <meta name="msapplication-square70x70logo" content="img/favicon/mstile-70x70.png" />
+   <meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png" />
+   <meta name="msapplication-wide310x150logo" content="img/favicon/mstile-310x150.png" />
+   <meta name="msapplication-square310x310logo" content="img/favicon/mstile-310x310.png" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<div class="header__body">
-					<a href="/" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
-					<div class="header__menu menu">
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__body">
+               <a href="/" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+               <div class="header__menu menu">
 
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item"><a href="#" data-goto=".actions" data-goto-header class="menu__link">Pracing</a></li>
-								<li class="menu__item"><a href="#" data-goto=".about" data-goto-header class="menu__link">Who we
-										are</a></li>
-								<li class="menu__item"><a href="#" data-goto=".questions" class="menu__link">FAQ</a>
-								</li>
-							</ul>
-							<div class="menu__buttons">
-								<a href="https://www.youreg.tech/sc/profile/" class="menu__button button">Log In</a>
-								<a href="https://www.youreg.tech/sc/profile/auth?state=reg" class="menu__button button button-accent">Sign Up</a>
-							</div>
-						</nav>
-					</div>
-					<a href="https://www.youreg.tech/sc/profile/" class="header__button button-small">Log In</a>
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
-				</div>
-			</div>
-		</header>
-		<main class="page">
-			
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__body">
-					<div class="footer__info">Safesquire Limited I Griva Digeni, 84, Office 102, Limassol, 3103, Cypris</div>
-					<div class="footer__links">
-						<a href="https://www.youreg.tech/privacy-policy/" target="_blank" class="footer__link">Privacy Policy </a>
-						<a href="https://www.youreg.tech/terms/" target="_blank" class="footer__link">Terms of Use</a>
-					</div>
-				</div>
-			</div>
-			<div class="footer__cookies cookies">
-				<div class="cookies__body">
-					<div class="cookies__text">
-						We use cookies. Learn more in <a href="terms.html">Terms and conditions</a>
-					</div>
-					<div class="cookies__buttons">
-						<button type="button" class="cookies__button button-small button-white">Decline</button>
-						<button type="button" class="cookies__button button-small button-accent">Accept</button>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
-	
-	<script src="js/app.min.js?_v=20220428141625"></script>
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li class="menu__item"><a href="#" data-goto=".actions" data-goto-header
+                              class="menu__link">Pracing</a></li>
+                        <li class="menu__item"><a href="#" data-goto=".about" data-goto-header class="menu__link">Who we
+                              are</a></li>
+                        <li class="menu__item"><a href="#" data-goto=".resources" data-goto-header
+                              class="menu__link">Resources</a></li>
+                        <li class="menu__item"><a href="#" data-goto=".questions" class="menu__link">FAQ</a>
+                        </li>
+                     </ul>
+                     <div class="menu__buttons">
+                        <a href="https://www.youreg.tech/sc/profile/" class="menu__button button">Log In</a>
+                        <a href="https://www.youreg.tech/sc/profile/auth?state=reg"
+                           class="menu__button button button-accent">Sign Up</a>
+                     </div>
+                  </nav>
+               </div>
+               <a href="https://www.youreg.tech/sc/profile/" class="header__button button-small">Log In</a>
+               <button type="button" class="menu__icon icon-menu"><span></span></button>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <section class="page-name">
+            <div class="main__container">
+               <div class="page-name__title">
+                  <h2 class="page-nam__title-text">Resources</h2>
+               </div>
+            </div>
+         </section>
+         <section class="page-grid-resources">
+            <div class="main__container">
+               <ul class="grid-resources__list">
+                  <li class="grid-resources__block grid-resources__banner">
+                     <a href="#"></a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg">
+                              <picture>
+                                 <source srcset="img/monitor.webp, img/monitor@x2.webp 2x" type="image/webp">
+                                 <img src="img/monitor.png" srcset="img/monitor@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain bg--margin">
+                              <picture>
+                                 <source srcset="img/sheet.webp, img/sheet@x2.webp 2x" type="image/webp">
+                                 <img src="img/sheet.png" srcset="img/sheet@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain">
+                              <picture>
+                                 <source srcset="img/sky.webp, img/sky@x2.webp 2x" type="image/webp">
+                                 <img src="img/sky.png" srcset="img/sky@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain">
+                              <picture>
+                                 <source srcset="img/statistics-circle.webp, img/statistics-circle@x2.webp 2x"
+                                    type="image/webp">
+                                 <img src="img/statistics-circle.png" srcset="img/statistics-circle@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block grid-resources__wide">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its
+                                       attractiveness in the eyes of many businessme.After joining the EU, Cyprus was
+                                       forced to abandon the formal status of an offshore, but this did not diminish its
+                                       attractiveness in the eyes of many businessmen…</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg">
+                              <picture>
+                                 <source srcset="img/workflow.webp, img/workflow@x2.webp 2x" type="image/webp">
+                                 <img src="img/workflow.png" srcset="img/workflow@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg">
+                              <picture>
+                                 <source srcset="img/monitor.webp, img/monitor@x2.webp 2x" type="image/webp">
+                                 <img src="img/monitor.png" srcset="img/monitor@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain bg--margin">
+                              <picture>
+                                 <source srcset="img/sheet.webp, img/sheet@x2.webp 2x" type="image/webp">
+                                 <img src="img/sheet.png" srcset="img/sheet@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg">
+                              <picture>
+                                 <source srcset="img/monitor.webp, img/monitor@x2.webp 2x" type="image/webp">
+                                 <img src="img/monitor.png" srcset="img/monitor@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain bg--margin">
+                              <picture>
+                                 <source srcset="img/sheet.webp, img/sheet@x2.webp 2x" type="image/webp">
+                                 <img src="img/sheet.png" srcset="img/sheet@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain">
+                              <picture>
+                                 <source srcset="img/sky.webp, img/sky@x2.webp 2x" type="image/webp">
+                                 <img src="img/sky.png" srcset="img/sky@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain">
+                              <picture>
+                                 <source srcset="img/statistics-circle.webp, img/statistics-circle@x2.webp 2x"
+                                    type="image/webp">
+                                 <img src="img/statistics-circle.png" srcset="img/statistics-circle@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block grid-resources__wide">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its
+                                       attractiveness in the eyes of many businessme.After joining the EU, Cyprus was
+                                       forced to abandon the formal status of an offshore, but this did not diminish its
+                                       attractiveness in the eyes of many businessmen…</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg">
+                              <picture>
+                                 <source srcset="img/workflow.webp, img/workflow@x2.webp 2x" type="image/webp">
+                                 <img src="img/workflow.png" srcset="img/workflow@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg">
+                              <picture>
+                                 <source srcset="img/monitor.webp, img/monitor@x2.webp 2x" type="image/webp">
+                                 <img src="img/monitor.png" srcset="img/monitor@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="grid-resources__block">
+                     <a href="#" class="grid-resources__link">
+                        <div class="grid-resources__link-wrapper">
+                           <div class="grid-resources__text">
+                              <div class="grid-resources__main-info">
+                                 <div class="main-info__time">
+                                    <div class="time__date">01.09.2022</div>
+                                    <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                                    </div>
+                                 </div>
+                                 <div class="main-info__info">
+                                    <h2 class="main-info--text-title">Why should I start business in Cyprus?</h2>
+                                    <div class="main-info--text--description">After joining the EU, Cyprus was forced to
+                                       abandon the formal status of an offshore, but this did not diminish its...</div>
+                                 </div>
+                              </div>
+                              <div class="grid-resources__btns">
+                                 <div class="btns--arcticle btns--button">Arcticle</div>
+                                 <div class="btns--business btns--button">Business</div>
+                              </div>
+                           </div>
+                           <div class="grid-resources__bg bg--contain bg--margin">
+                              <picture>
+                                 <source srcset="img/sheet.webp, img/sheet@x2.webp 2x" type="image/webp">
+                                 <img src="img/sheet.png" srcset="img/sheet@x2.png 2x" alt="">
+                              </picture>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+               <div class="grid-resources__btn-sea-more">
+                  <button class="grid-resources__see-more button-white button">See more arcticles</button>
+               </div>
+            </div>
+         </section>
+         <section class="page-subcriber">
+            <div class="main__container">
+               <div class="page-subcriber__wrapper">
+                  <h2 class="page-subcriber__title">Subcribe to our newsletter</h2>
+                  <div class="page-subcriber__text big-text">Get our updates on tax and regulatory rules, some expert business tips, guides and check-lists</div>
+                  <div class="page-subcriber__form-subcriber">
+                     <form action="#" class="form-subcriber">
+                        <div class="form__item form-subcriber__input-mail">
+                           <div class="form-subcriber__mail">
+                              <input type="mail" name="user-mail" placeholder="E-mail" class="form-input-mail">
+                           </div>
+                           <div class="form-subcriber__button">
+                              <button type="submit" class="send__form-subscribe">Subscribe</button>
+                           </div>
+                        </div>
+                        <div class="form__item">
+                           <div class="form-subcriber__checkbox">
+                              <input name="agreement" type="checkbox" id="formAgreement" class="checkbox__agreement">
+                              <label for="formAgreement" class="checkbox__label"><span>I accept the terms of <a href="#">the Personal Data Processing Policy</a></span></label>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__body footer-with-links">
+               <div class="footer__info">Safesquire Limited I Griva Digeni, 84, Office 102, Limassol, 3103, Cypris</div>
+               <div class="footer__links">
+                  <a href="https://www.youreg.tech/privacy-policy/" target="_blank" class="footer__link">Privacy Policy
+                  </a>
+                  <a href="https://www.youreg.tech/terms/" target="_blank" class="footer__link">Terms of Use</a>
+               </div>
+            </div>
+            <div class="footer__links">
+               <div class="footer_link"><a href="#"><img src="img/in_link.svg" alt=""></a></div>
+               <div class="footer_link"><a href="#"><img src="img/fb_link.svg" alt=""></a></div>
+            </div>
+         </div>
+         <div class="footer__cookies cookies">
+            <div class="cookies__body">
+               <div class="cookies__text">
+                  We use cookies. Learn more in <a href="terms.html">Terms and conditions</a>
+               </div>
+               <div class="cookies__buttons">
+                  <button type="button" class="cookies__button button-small button-white">Decline</button>
+                  <button type="button" class="cookies__button button-small button-accent">Accept</button>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/resourse.js"></script>
+   <script src="js/app.js"></script>
 </body>
 
 
