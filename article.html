@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <title>Article</title>
+   <meta charset="UTF-8">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220428141625">
+   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+   <link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
+   <meta name="application-name" content="&nbsp;" />
+   <meta name="msapplication-TileColor" content="#FFFFFF" />
+   <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png" />
+   <meta name="msapplication-square70x70logo" content="img/favicon/mstile-70x70.png" />
+   <meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png" />
+   <meta name="msapplication-wide310x150logo" content="img/favicon/mstile-310x150.png" />
+   <meta name="msapplication-square310x310logo" content="img/favicon/mstile-310x310.png" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!--Пояснение к классам в статье
+
+   class="article__block"               - раздел статьи (margin-bottom: 100px);
+   <h2 class="article__block-title">    - название раздела статьи (border-bottom);
+   <p class="article__text">            - текст в статье (без margin/padding);
+
+   <ul class="mark--arrow">             - маркированный список, в котором <li> со стрелкой;
+      <p class="ul-item__text">         - текст в этом <li> (margin-top: 16px);
+      <ul class="mark--circle">         - вложенный список в этот <li>, где <li> с кружком;
+      <p class="ul-item__name-ul">      - ставится перед <ul class="mark--circle">  (название вложенного списка);
+   
+   <p class="article__text-with-margin">- текст с отступами (margin-top и margin-bottom);
+
+   <ol class="article__ol-list">        - нумерованный список
+
+-->
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__body">
+               <a href="/" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+               <div class="header__menu menu">
+
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li class="menu__item"><a href="#" data-goto=".actions" data-goto-header
+                              class="menu__link">Pracing</a></li>
+                        <li class="menu__item"><a href="#" data-goto=".about" data-goto-header class="menu__link">Who we
+                              are</a></li>
+                        <li class="menu__item"><a href="#" data-goto=".resources" data-goto-header
+                              class="menu__link">Resources</a></li>
+                        <li class="menu__item"><a href="#" data-goto=".questions" class="menu__link">FAQ</a>
+                        </li>
+                     </ul>
+                     <div class="menu__buttons">
+                        <a href="https://www.youreg.tech/sc/profile/" class="menu__button button">Log In</a>
+                        <a href="https://www.youreg.tech/sc/profile/auth?state=reg"
+                           class="menu__button button button-accent">Sign Up</a>
+                     </div>
+                  </nav>
+               </div>
+               <a href="https://www.youreg.tech/sc/profile/" class="header__button button-small">Log In</a>
+               <button type="button" class="menu__icon icon-menu"><span></span></button>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <div class="nav-go-back">
+            <div class="main__container">
+               <div class="nav-go-back__block">
+                  <a href="#" class="nav-go-back__link">Back to all articles</a>
+               </div>
+            </div>
+         </div>
+         <section class="article__title">
+            <div class="main__container">
+               <div class="article__top">
+                  <div class="article__top-text">
+                     <h1 class="top-text__name-article">Cyprus company:<br>registration, deadlines, cost</h1>
+                     <div class="top-text__time-article">
+                        <div class="main-info__time time-article__block">
+                           <div class="time__date">01.09.2022</div>
+                           <div class="time__oclock"><span class="oclock__number">5</span> minutes to read
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="article__top-bg">
+                     <div class="article__bg-block">
+                        <picture>
+                           <source srcset="img/monitor-rotate.webp, img/monitor-rotate@x2.webp 2x" type="image/webp">
+                           <img src="img/monitor-rotate.png" srcset="img/monitor-rotate@x2.png 2x" alt="monitor">
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="article__content">
+            <div class="main__container">
+               <div class="article__introduction article__block">
+                  <div class="article__text">Registering a company in Cyprus is quite easy. If needed, it could be done
+                     with an authorized capital of €1 within 14 business days (though the standard authorized capital
+                     amount is still €1,000).</div>
+                  <div class="article__text">Cyprus offers favorable tax conditions:</div>
+                  <ul class="article__ul-list mark--arrow">
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">19% VAT (its application depends on the activity area);</p>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">zero dividend tax;</p>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">12.5% income tax rate (which can be reduced to 2.5% for IT companies
+                           with software on the balance sheet).</p>
+                     </li>
+                  </ul>
+               </div>
+               <div class="article__block">
+                  <h2 class="article__block-title">Registration cost</h2>
+                  <p class="article__text">The final cost is the sum of the services selected:</p>
+                  <ul class="article__ul-list mark--arrow">
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">company registration – €999;</p>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">secretary – €99 per month or €999 per year;</p>
+                        <p class="ul-item__name-ul">This includes:</p>
+                        <ul class="mark--circle">
+                           <li class="article__ul-item">providing a registered office,</li>
+                           <li class="article__ul-item">keeping and storing a company file,</li>
+                           <li class="article__ul-item">preparing such documents as the Certificate of Incumbency,
+                              Corporate Register,<br>Share Certificate, internal resolutions,</li>
+                           <li class="article__ul-item">dealing with the local government authorities;</li>
+                           <li class="article__ul-item">monitoring company’s compliance with reporting and tax payment
+                              deadlines, etc.</li>
+                        </ul>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">director – legal entity: €49 per month or €495 per year; individual –
+                           €99 per month or €999 per year;</p>
+                        <p class="ul-item__name-ul">This includes:</p>
+                        <ul class="mark--circle">
+                           <li class="article__ul-item">representing interests of a company;</li>
+                           <li class="article__ul-item">signing documents.</li>
+                        </ul>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">accounting – €999 per year, if no more than 20 transactions (incoming
+                           and outgoing) are expected monthly;</p>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">audit – calculated individually according to the transaction volume.
+                           Account statements with invoices/contracts to be submitted;</p>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">stamp duty – €350 annually;</p>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">professional tax – €50–150 annually (depending on the activity);</p>
+                     </li>
+                     <li class="article__ul-item">
+                        <p class="ul-item__text">account opening support (up to 3 attempts) – €1,490.</p>
+                     </li>
+                  </ul>
+                  <p class="article__text-with-margin">
+                     The scope and cost of services will be negotiated with each client individually.
+                  </p>
+                  <div class="article__img-block">
+                     <div class="img-block__img">
+                        <!--<picture>
+                           <source srcset="img/monitor.webp, img/monitor@x2.webp 2x" type="image/webp">
+                           <img src="img/monitor.png" srcset="img/monitor@x2.png 2x" alt="">
+                        </picture>-->
+                     </div>
+                  </div>
+               </div>
+               <div class="article__block">
+                  <h2 class="article__block-title">Procedure and deadlines for registration</h2>
+                  <p class="article__text">In Cyprus, the company registration procedure consists of 5 steps only:</p>
+                  <ol class="article__ol-list">
+                     <li class="article__ol-item">The client selects services by answering the following questions: will
+                        the secretary be enough or is a local director required? / does he/she need a bank account
+                        straight after the registration? / will the subscription be monthly or annual?</li>
+                     <li class="article__ol-item">A meeting with the client (in person / via videoconference) is held
+                        and the bill is paid. A face-to-face meeting is preferred. Clients that are unable to arrange a
+                        meeting or a video call receive closer attention later on.</li>
+                     <li class="article__ol-item">The client sends the minimum data package and chooses a future name,
+                        authorized capital amount, specifies the company’s activities. If required, the name will be
+                        checked for uniqueness.</li>
+                     <li class="article__ol-item">Prepared documents are sent to the client to sign. Signing in person
+                        is very important.</li>
+                     <li class="article__ol-item">After receiving signed originals, a local lawyer in Cyprus certifies
+                        documents in court and submits them to the Registrar. In the end, the client receives certified
+                        and apostilled corporate documents.</li>
+                  </ol>
+                  <p class="article__text">What is the minimum set of documents to register a legal entity?
+                     Details of the beneficiary shall be provided:</p>
+                  <ul class="mark--arrow">
+                     <li class="article__ul-item">color scanned copy of the foreign travel passport;</li>
+                     <li class="article__ul-item">document confirming the registration address specifying the first name
+                        and surname of the beneficiary: light/electricity bill, bank account statement, etc.;</li>
+                     <li class="article__ul-item">CV specifying the education level, employment history for the last
+                        10–15 years, approximate annual income and welfare.</li>
+                  </ul>
+                  <p class="article__text-with-margin">
+                     A similar set of documents shall be provided for all shareholders/directors. Documents in any
+                     foreign language require certified translations (documents in English and Greek will be accepted).
+                  </p>
+                  <p class="article__text-with-margin">
+                     The minimum period to register a company is 14 business days, but this is applicable under ideal
+                     conditions. Within 24 hours after meeting the client and obtaining the necessary information from
+                     them, a set of documents will be prepared (the period may increase, if the client chooses any name
+                     that is not on our list, which will be checked for uniqueness within 4–5 days). After signing
+                     prepared documents, it will take up to 10 days to register the company and perform further
+                     certification and apostilling of the corporate documents.
+                  </p>
+
+               </div>
+               <div class="article__block">
+                  <h2 class="article__block-title">
+                     Who registers companies in Cyprus?
+                  </h2>
+                  <div class="article__text">
+                     YouReg cooperates with verified licensed corporate service providers only. <a href="#">Korpus Prava
+                        Corporate
+                        Services Ltd</a>, a local company with a valid license from the Cyprus Securities and Exchange
+                     Commission, is currently connected to the Platform.
+                  </div>
+               </div>
+               <div class="article__block-links">
+                  <div class="wrapper__btns">
+                     <div class="btns--arcticle btns--button">Arcticle</div>
+                     <div class="btns--business btns--button">Business</div>
+                     <div class="btns--business btns--button">Registration</div>
+                  </div>
+                  <div class="block-links__links">
+                     <div class="block-links__link"><a href="#"><img src="img/in_link.svg" alt=""></a></div>
+                     <div class="block-links__link"><a href="#"><img src="img/fb_link.svg" alt=""></a></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page-subcriber subcriber-article">
+            <div class="main__container">
+               <div class="page-subcriber__wrapper">
+                  <h2 class="page-subcriber__title">Subcribe to our newsletter</h2>
+                  <div class="big-text page-subcriber__text">Get our updates on tax and regulatory rules, some expert
+                     business tips, guides and check-lists</div>
+                  <div class="page-subcriber__form-subcriber">
+                     <form action="#" class="form-subcriber">
+                        <div class="form__item form-subcriber__input-mail">
+                           <div class="form-subcriber__mail">
+                              <input type="mail" name="user-mail" placeholder="E-mail" class="form-input-mail">
+                           </div>
+                           <div class="form-subcriber__button">
+                              <button type="submit" class="send__form-subscribe">Subscribe</button>
+                           </div>
+                        </div>
+                        <div class="form__item">
+                           <div class="form-subcriber__checkbox">
+                              <input name="agreement" type="checkbox" id="formAgreement" class="checkbox__agreement">
+                              <label for="formAgreement" class="checkbox__label"><span>I accept the terms of <a
+                                       href="#">the Personal Data Processing Policy</a></span></label>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__body">
+               <div class="footer__info">Safesquire Limited I Griva Digeni, 84, Office 102, Limassol, 3103, Cypris</div>
+               <div class="footer__links">
+                  <a href="https://www.youreg.tech/privacy-policy/" target="_blank" class="footer__link">Privacy Policy
+                  </a>
+                  <a href="https://www.youreg.tech/terms/" target="_blank" class="footer__link">Terms of Use</a>
+               </div>
+            </div>
+         </div>
+         <div class="footer__cookies cookies">
+            <div class="cookies__body">
+               <div class="cookies__text">
+                  We use cookies. Learn more in <a href="terms.html">Terms and conditions</a>
+               </div>
+               <div class="cookies__buttons">
+                  <button type="button" class="cookies__button button-small button-white">Decline</button>
+                  <button type="button" class="cookies__button button-small button-accent">Accept</button>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <div id="callform" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+         <div class="popup__content">
+            <button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+            <div class="popup__body">
+               <div class="popup__title big-text">Got any questions? <br>
+                  Feel free to contact us!</div>
+               <form action="#" data-dev data-popup-message="#form-message" class="popup__form">
+                  <div class="popup__inputs">
+                     <div class="popup__input-wrap">
+                        <input required class="popup__input input" data-validate autocomplete="off" type="text"
+                           name="form[]" data-error="" placeholder="Name">
+                     </div>
+                     <div class="popup__input-wrap">
+                        <input required class="popup__input input" data-validate autocomplete="off" type="text"
+                           name="form[]" data-error="" placeholder="Contact number">
+                     </div>
+                  </div>
+                  <div class="popup__textarea-wrap">
+                     <textarea required class="popup__textarea" data-validate name="" data-error=""
+                        placeholder="Case"></textarea>
+                  </div>
+                  <button type="submit" class="popup__button button button-accent">Send</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="form-message" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+         <div class="popup__content">
+            <button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+            <div class="popup__body">
+               <div class="popup__title big-text">We will call you back</div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="priceform" aria-hidden="true" class="popup price-popup">
+      <div class="popup__wrapper">
+         <div class="popup__content">
+            <button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+            <div class="popup__body">
+               <div class="popup__title big-text">Leave your e-mail and receive a Price list at once</div>
+               <form action="#" data-dev data-popup-message="#form-price-message" class="popup__form">
+                  <div class="popup__input-wrap">
+                     <input required class="popup__input input" data-validate data-required="email" autocomplete="off"
+                        type="email" name="form[]" data-error="" placeholder="E-mail">
+                  </div>
+                  <button type="submit" class="popup__button button button-accent">Send</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="form-price-message" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+         <div class="popup__content">
+            <button data-close type="button" class="popup__close"><img src="img/icon-close.svg" alt=""></button>
+            <div class="popup__body">
+               <div class="popup__title big-text">Check your e-mail box</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="js/app.min.js?_v=20220428141625"></script>
+</body>
+
+
+</html>
